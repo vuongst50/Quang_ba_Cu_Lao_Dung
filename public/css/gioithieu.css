@@ -1,0 +1,75 @@
+/* BANNER */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered p {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.centered .root a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.centered .root a:hover {
+    color: #f3bd00;
+}
+
+/* END BANNER */
+
+.content-title {
+    color: #ae0000;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.text p {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 0 5px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.text .figure {
+    width: 100%;
+    max-height: 500px;
+}
+
+.text .figure img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.text .row .figure {
+    width: 100%;
+    max-height: 350px;
+}
+
+.text .row .figure img {
+    width: 100%;
+    max-height: 350px;
+}
+
+.gt-content {
+    font-family: "Times New Roman", Times, serif;
+}

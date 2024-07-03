@@ -1,0 +1,646 @@
+.html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: calc(1em + 1vw);
+}
+
+.flex-wrapper {
+    padding-top: 60px !important;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 9999;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background: #333333;
+    text-align: center;
+    font-size: 22px;
+    padding: 25px 0;
+}
+
+/* NAVBER */
+.logo {
+    height: 50px;
+    width: 75px;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.header .navbar {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0.5rem;
+    padding: 0;
+    transition: all 0.8s;
+}
+
+.nav-item .nav-link-scroll {
+    color: #fff;
+}
+
+.header .navbar-scroll {
+    background-color: #302f2f;
+}
+
+.header .navbar-toggler-scroll {
+    border-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.header .navbar-toggler-icon-scroll {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.header .offcanvas {
+    background-color: #f3bd00;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    padding: 16px;
+}
+
+.nav-item .login-link {
+    font-size: 16px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media screen and (min-width: 1200px) {
+    a.nav-link:hover {
+        color: red;
+    }
+
+    .dropdown-menu > li > a:hover {
+        background-color: red;
+        color: white;
+    }
+}
+
+.dropdown-menu {
+    padding: 0px !important;
+    border-radius: 0px;
+}
+
+.dropdown .dropdown-menu {
+    border-radius: 0px;
+}
+
+.dropdown-divider {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: red;
+}
+
+/* END NAVBAR */
+
+/* END HEADER */
+
+/* BODY */
+.slideshow-images .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+/* CAROUSEL */
+/* Makes images fully responsive */
+.slideshow-images .img-responsive,
+.slideshow-images .thumbnail > img,
+.slideshow-images .thumbnail a > img,
+.slideshow-images .carousel-inner > .item > img,
+.slideshow-images .carousel-inner > .item > a > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 500px;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+.slideshow-images .carousel-inner {
+    max-height: 500px;
+    padding-bottom: 25%;
+}
+
+.slideshow-images .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.slideshow-images .carousel-control.left,
+.slideshow-images .carousel-control.right {
+    background-image: none;
+}
+
+.slideshow-images .carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.slideshow-images .carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    width: 100%;
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+.slideshow-images .carousel-control-prev-icon,
+.slideshow-images .carousel-control-next-icon {
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* END CAROUSEL */
+
+/* SEARCHBAR */
+.d-flex .form-control {
+    background-color: #d9d9d9;
+    border-color: #f3bd00;
+}
+
+.d-flex .btn {
+    width: 150px;
+    background-color: #f3bd00;
+    border-color: #d9d9d9;
+    color: black;
+}
+/* END SEARCHBAR */
+
+/* SPEECH */
+.speech {
+    font-family: "Whisper";
+    font-size: 54px;
+}
+
+.author-speech {
+    font-family: "Tapestry";
+    font-size: 32px;
+}
+/* END SPEECH */
+
+/* MENU */
+.team-style1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.team-style1 .team-info {
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border-radius: 5px;
+    transform: translate3d(0px, 0%, 0px);
+    transition: all 800ms ease 0.35s;
+    padding: 25px 30px;
+    box-shadow: 0px 5px 24.25px 0.75px rgba(0, 0, 0, 0.1);
+    background: rgba(243, 189, 0, 0.8);
+    position: absolute;
+}
+
+.team-style1 .team-overlay {
+    font-size: 24px;
+    font-weight: bold;
+    left: 15px;
+    right: 15px;
+    opacity: 1;
+    padding: 0 20px;
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    transform: translate3d(0px, -110%, 0px);
+    transition: all 700ms ease 0.35s;
+    box-shadow: 0px 5px 24.25px 0.75px rgba(0, 0, 0, 0.1);
+}
+
+.team-style1:hover .team-overlay {
+    transform: translate3d(0px, 0, 0px);
+    transition-delay: 0.1s;
+    background: rgba(40, 40, 40, 0.45);
+    border-radius: 5px;
+}
+
+.team-style1:hover .team-info {
+    transform: translate3d(0px, 130px, 0px);
+    transition-delay: 0.2s;
+}
+
+.team-style1 .social-icon-style1 {
+    border-top: 2px dotted rgba(255, 255, 255, 0.3);
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.team-bg-shape img {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    z-index: 0;
+}
+
+@media screen and (min-width: 991px) {
+    .team-style1 .team-info {
+        padding: 20px;
+    }
+}
+
+.team-style1 .social-icon-style1 {
+    border-top: 2px dotted rgba(255, 255, 255, 0.3);
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.social-icon-style1 {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-icon-style1 li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-icon-style1 li a {
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #2fbfa7;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+/* END MENU */
+
+/* NEWS AND EVENTS */
+.new-and-event-content .img-responsive,
+.new-and-event-content .thumbnail > img,
+.new-and-event-content .thumbnail a > img,
+.new-and-event-content .carousel-inner > .item > img,
+.new-and-event-content .carousel-inner > .item > a > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 500px;
+}
+.new-and-event-content .carousel {
+    height: 100%;
+}
+.new-and-event-content .carousel-inner {
+    max-height: 500px;
+    min-height: 300px;
+    height: 100%;
+    padding-bottom: 25%;
+}
+
+.new-and-event-content .carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.new-and-event-content .carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    width: 100%;
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.new-and-event-content .carousel-indicators button {
+    border-radius: 50%;
+    position: relative;
+    top: 22px;
+    height: 15px;
+    width: 15px;
+}
+
+.li-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.carousel-caption a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.new-and-event-content .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    left: 0;
+    bottom: 30px;
+    font-size: 24px;
+}
+
+.new-and-event-content .carousel-caption a:hover {
+    color: #f3bd00;
+}
+
+.li-title a:hover {
+    color: #f3bd00;
+}
+
+.title-content {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ae0000;
+}
+
+.title-content a {
+    color: #ae0000;
+    text-decoration: none;
+}
+
+.title-content a:hover {
+    text-decoration: underline;
+}
+
+.NAE-content .text-start {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* END NEWS AND EVENTS */
+
+/* FOOD */
+
+.food-banner {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    color: #283680;
+}
+
+/* dd */
+
+/* Google Fonts - Poppins */
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 10px 0;
+}
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.slide-content .card {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    border: red;
+}
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    border: red;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #7c9c32;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #7c9c32;
+}
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #7c9c32;
+}
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.like-button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #7c9c32;
+    color: #fff;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #cccccc;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #7c9c32;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background: rgba(124, 156, 50, 0.8);
+}
+
+.swiper-navBtn {
+    color: #7c9c32;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover {
+    color: rgba(124, 156, 50, 0.8);
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+.swiper-button-next {
+    right: 0;
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-pagination-bullet {
+    background-color: rgba(124, 156, 50, 0.8);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: #7c9c32;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+/* END FOOD */
+
+/*  DESTINATION */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.destination-content .title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.destination-content .content {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.destination-content .content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.destination-content .content:hover .content-overlay {
+    opacity: 1;
+}
+.destination-content .content-image {
+    width: 100%;
+}
+.destination-content img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.destination-content .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.destination-content .content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.destination-content .content-details h3 {
+    font-size: 20px;
+    color: #f3bd00;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+.destination-content .content-details p {
+    color: #f3bd00;
+    font-size: 0.8em;
+}
+.destination-content .fadeIn-bottom {
+    top: 80%;
+}
+
+.destination-content a {
+    text-decoration: none;
+}
+/* END DESTINATION */
+/* END BODY */
+
+/* FOOTER */
+
+/* END FOOTER */
+
+.pagination > li > a {
+    background-color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}

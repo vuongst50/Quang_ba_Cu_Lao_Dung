@@ -1,0 +1,492 @@
+.tt-sk-content,
+.diemden-content,
+.amthuc-content,
+.khachsan-content,
+.vhls-content {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* BANNER */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered p {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.centered .root a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.centered .root a:hover {
+    color: #f3bd00;
+}
+
+/* END BANNER */
+
+.title {
+    color: #ae0000;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.title .title-icon {
+    font-size: 20px;
+}
+
+.second-news .card {
+    height: 400px;
+}
+
+.second-news img {
+    height: 200px;
+}
+
+.amthuc-menu .second-news .card {
+    max-height: 400px;
+}
+
+.amthuc-menu .second-news img {
+    height: 200px;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.first-news .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tt-sk-content .first-news .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds '...' at the end */
+    line-height: 1.5; /* Adjust line-height for consistency */
+    max-height: calc(1.5em * 6); /* Ensure this matches the line-clamp */
+}
+
+.tt-sk-content .first-news .card-text img {
+    display: none; /* Hide images within .card-text */
+}
+
+.diemden-content .first-news .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds '...' at the end */
+    line-height: 1.5; /* Adjust line-height for consistency */
+    max-height: calc(1.5em * 4); /* Ensure this matches the line-clamp */
+}
+
+.second-news .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.second-news .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds '...' at the end */
+    line-height: 1.5; /* Adjust line-height for consistency */
+    max-height: calc(1.5em * 4); /* Ensure this matches the line-clamp */
+}
+
+.third-news .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.third-news .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds '...' at the end */
+    line-height: 1.5; /* Adjust line-height for consistency */
+    max-height: calc(1.5em * 4); /* Ensure this matches the line-clamp */
+}
+
+.third-news .card {
+    height: 240px;
+}
+
+.third-news img {
+    height: 150px;
+}
+
+.side-news img {
+    height: 100px;
+    width: 100%;
+}
+
+.card-title:hover {
+    color: #f3bd00;
+}
+
+.side-tittle h4 {
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ae0000;
+}
+
+.detail-content p {
+    font-size: 18px;
+    padding: 5px 0 5px;
+    margin: 0;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.red-horizontal-line {
+    border-bottom: 4px solid #ae0000; /* Đường ngang 2px dày, màu đỏ */
+    margin-bottom: 20px; /* Để tạo khoảng cách giữa đường ngang và nội dung phía dưới */
+}
+
+.detail-content a {
+    text-decoration: none;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+}
+
+.socialbtns {
+    border-top-style: solid;
+    border-top-color: #b8b8b8;
+}
+
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
+    padding: 5px;
+    text-align: left;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+    text-align: center;
+}
+
+.socialbtns span {
+    color: #7c7777;
+}
+
+.socialbtns .fa {
+    color: #fff;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+
+.socialbtns .fa:hover {
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-description {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* DIEM DEN */
+.first-news .card {
+    height: auto;
+}
+
+.first-news img {
+    height: 100%;
+    width: 100%;
+}
+
+.dl-title {
+    background-color: #6a94e5;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon-link .bi {
+    display: inline-flex; /* Sử dụng flex để căn giữa */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.link-primary span {
+    font-size: 22px;
+}
+/* END DIEM DEN */
+
+/* ẨM THỰC */
+.amthuc-content .third-news .card {
+    height: 450px;
+}
+
+.amthuc-content .third-news img {
+    height: 300px;
+}
+
+.amthuc-content .third-news .card-title {
+    font-size: 24px;
+}
+
+.amthuc-content .third-news .card {
+    transition: all 0.3s;
+}
+
+.amthuc-content .third-news .card:hover {
+    transform: scale(1.1);
+}
+
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+/* END ẨM THỰC */
+
+/* NGHỈ DƯỠNG */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nghiduong-content .title {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nghiduong-content .card {
+    width: 380px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.nghiduong-content .card .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+}
+
+.nghiduong-content .card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+
+.nghiduong-content .card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #f3bd00;
+    animation: popBackground 0.3s ease-in;
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%;
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%;
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+}
+
+.nghiduong-content .card .pic {
+    position: relative;
+}
+
+.nghiduong-content .card .pic img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.nghiduong-content .card .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 70px;
+    background-color: #f3bd00;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease;
+}
+
+.nghiduong-content .card .date .day {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nghiduong-content.card .date .month,
+.nghiduong-content .card .date .year {
+    font-size: 10px;
+}
+
+.nghiduong-content .card .text-muted {
+    font-size: 12px;
+}
+
+.nghiduong-content .card:hover .text-muted {
+    color: #fff !important;
+}
+
+.nghiduong-content .card .content {
+    padding: 0 20px;
+}
+
+.nghiduong-content .card .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #f3bd00;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none;
+}
+
+.nghiduong-content .card .content .btn a {
+    color: inherit;
+}
+
+.nghiduong-content .card:hover .content .btn {
+    background: #fff;
+    color: #f3bd00;
+    box-shadow: #0000001a 0px 3px 5px;
+}
+
+.nghiduong-content .card .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.nghiduong-content .card .content .foot .admin {
+    color: #f3bd00;
+    font-size: 12px;
+}
+
+.nghiduong-content .card:hover .content .foot .admin {
+    color: #fff;
+}
+
+.nghiduong-content .card .content .foot .icon {
+    font-size: 12px;
+}
+
+.nghiduong-content .form-select {
+    width: 150px;
+}
+
+.khachsan-content .card .ratio {
+    height: 390px;
+}
+
+.nghiduong-content .dropdown-menu > li > a:hover {
+    background-color: hsl(0, 23%, 94%);
+    color: #f3bd00;
+}
+
+.nghiduong-content .dropdown-divider {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: #f3bd00;
+}
+/* END NGHỈ DƯỠNG */
+
+.vhls-content .detail-content {
+    border-top-style: none;
+}
