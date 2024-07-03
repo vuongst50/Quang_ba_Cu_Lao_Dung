@@ -3,7 +3,7 @@
 
 <head>
     <base href="/public">
-    @include('home.homecss')
+    @include('home.homecss', ['title' => $post->title])
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 </head>
 

@@ -27,7 +27,32 @@ header {
     padding: 25px 0;
 }
 
-/* NAVBER */
+/* NAVBAR */
+@media (max-width: 991.98px) {
+    .navbar .dropdown-menu {
+        display: block;
+        position: static;
+        float: none;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .navbar .dropdown-menu .dropdown-item {
+        padding-left: 2.5rem;
+        color: #000;
+    }
+
+    .navbar .nav-item {
+        margin-bottom: 1rem; /* Tạo khoảng cách giữa các mục */
+    }
+
+    .navbar .dropdown-menu .dropdown-divider {
+        display: none; /* Ẩn các divider */
+    }
+}
+
 .logo {
     height: 50px;
     width: 75px;

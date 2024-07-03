@@ -21,7 +21,7 @@
       </div>
       <div class="container">
         <div class="container">
-          <div class="selector d-flex justify-content-end mx-5 my-3">
+          <div class="selector d-flex justify-content-end my-3">
             <div class="dropdown">
               <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
